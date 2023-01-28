@@ -2,7 +2,7 @@
 
 /*
 * Author:           FXC
-* Build/Run:        gcc -masm=intel -z execstack -fno-stack-protector reverse_shell.c -o reverse_shell
+* Build/Run:        gcc -z execstack -fno-stack-protector reverse_shell.c -o reverse_shell
 *                   nc -lvnp 1337
 */
 #include <stdio.h>
