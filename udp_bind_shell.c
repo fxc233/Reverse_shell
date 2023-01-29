@@ -3,7 +3,7 @@
 /*
 * Author:           FXC
 * Build/Run:        gcc -z execstack -fno-stack-protector udp_bind_shell.c -o udp_bind_shell
-*                   nc -lvnp 1337
+*                   nc -u 127.0.0.1 1337
 */
 #include <stdio.h>
 #include <stdlib.h>
