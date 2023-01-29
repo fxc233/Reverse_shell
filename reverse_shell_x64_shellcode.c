@@ -1,4 +1,4 @@
-//x64 Linux reverse TCP connect shellcode
+//x64 Linux reverse TCP connect x86-64 shellcode
 
 /*
 * Author:           FXC
