@@ -1,4 +1,4 @@
-//x64 Linux reverse TCP connect intel assembly
+//x64 Linux reverse TCP connect x86-64 intel assembly
 
 /*
 * Author:           FXC
