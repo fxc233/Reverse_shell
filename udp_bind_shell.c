@@ -17,7 +17,7 @@ int main(void)
 	socklen_t socklen;
 
 	struct sockaddr_in addr;
-	struct sockaddr_storage z;
+	struct sockaddr_in z;
 	int sockfd, len= sizeof(z);
 
 	addr.sin_family = AF_INET;
